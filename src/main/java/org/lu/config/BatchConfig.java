@@ -87,7 +87,8 @@ public class BatchConfig {
 		SimpleAsyncTaskExecutor taskExecutor = new SimpleAsyncTaskExecutor();
 		taskExecutor.setConcurrencyLimit(8);
 		return stepBuilderFactory.get("step1").<Person, Person> chunk(10)
-				.reader(reader).processor(processor).writer(writer).build();
+				.reader(reader).processor(processor).writer(writer)
+				.taskExecutor(taskExecutor).build();
 	}
 
 	@Bean
