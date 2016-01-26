@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemesh>
+	<mapping path="/*" decorator="/WEB-INF/decorator.jsp" />
+</sitemesh>
+
+<!-- <mapping path="/exclude.<a href=" http: / www.it165.net / pro /
+	webjsp / target="_blank" class="keylink">
+	jsp
+</a>
+	*" exclue="true" /> -->

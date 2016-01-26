@@ -23,7 +23,7 @@ public class TestController {
 	@Resource(name = "job1")
 	Job job;
 
-	@RequestMapping("/")
+	@RequestMapping("/home")
 	@ResponseBody
 	public String home() {
 		return "hello world";
